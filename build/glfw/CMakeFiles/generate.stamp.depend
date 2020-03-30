@@ -2,6 +2,7 @@
 C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
 C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
 C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.c.in
 C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
 C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
 C:/Program Files/CMake/share/cmake-3.17/Modules/FindDoxygen.cmake

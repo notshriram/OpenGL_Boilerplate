@@ -1,0 +1,10 @@
+^C:\USERS\STEWIE\OPENGL_BOILERPLATE\BUILD\CMAKEFILES\529884DBA1445ADAA86C7AA25E1C181E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Stewie/OpenGL_Boilerplate -BC:/Users/Stewie/OpenGL_Boilerplate/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Stewie/OpenGL_Boilerplate/build/Boilerplate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

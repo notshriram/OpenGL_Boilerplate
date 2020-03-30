@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Stewie/OpenGL_Boilerplate/glm/CMakeLists.txt
+C:/Users/Stewie/OpenGL_Boilerplate/glm/cmake/CMakePackageConfigHelpers.cmake
+C:/Users/Stewie/OpenGL_Boilerplate/glm/cmake/GNUInstallDirs.cmake
+C:/Users/Stewie/OpenGL_Boilerplate/glm/cmake/glm.pc.in
+C:/Users/Stewie/OpenGL_Boilerplate/glm/cmake/glmBuildConfig.cmake.in
+C:/Users/Stewie/OpenGL_Boilerplate/glm/cmake/glmConfig.cmake.in

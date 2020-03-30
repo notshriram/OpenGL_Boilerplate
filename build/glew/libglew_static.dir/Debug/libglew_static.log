@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glew/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Shriram/Desktop/OpenGL_Boilerplate/build/glew/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  libglew_static.vcxproj -> C:\Users\Shriram\Desktop\OpenGL_Boilerplate\build\lib\Debug\glewd.lib

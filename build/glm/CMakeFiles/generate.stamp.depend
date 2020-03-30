@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/cmake-3.14.3-win64-x64/share/cmake-3.14/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files (x86)/cmake-3.14.3-win64-x64/share/cmake-3.14/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/cmake-3.14.3-win64-x64/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/CMakeLists.txt
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/cmake/CMakePackageConfigHelpers.cmake
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/cmake/GNUInstallDirs.cmake
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/cmake/glm.pc.in
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/cmake/glmBuildConfig.cmake.in
+C:/Users/Shriram/Desktop/OpenGL_Boilerplate/glm/cmake/glmConfig.cmake.in

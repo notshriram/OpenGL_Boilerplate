@@ -22,4 +22,5 @@ target_link_libraries(main PRIVATE glm)
 target_include_directories(main PRIVATE
     ${PROJECT_SOURCE_DIR}/imgui
 )
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT main)
 

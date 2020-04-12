@@ -19,7 +19,7 @@ add_executable(main
   ${PROJECT_SOURCE_DIR}/  imgui/imstb_textedit.h
   ${PROJECT_SOURCE_DIR}/  imgui/imstb_truetype.h
 )
-IF (WIN32)
+
 set_property(TARGET main PROPERTY CXX_STANDARD 11)
 target_compile_options(main PRIVATE -Wall)
 
@@ -36,24 +36,7 @@ target_link_libraries(main PRIVATE glm)
 target_include_directories(main PRIVATE
     ${PROJECT_SOURCE_DIR}/imgui
 )
+IF(WIN32)
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT main)
-
-ELSE()
-find_package(PkgConfig REQUIRED)
-pkg_search_module(OPENGL REQUIRED gl)
-pkg_search_module(GLU REQUIRED glu)
-pkg_search_module(GLEW REQUIRED glew)
-pkg_search_module(GLFW REQUIRED glfw3)
-
-include_directories("${PROJECT_SOURCE_DIR}")
-include_directories("${OPENGL_INCLUDE_DIRS}")
-include_directories("${GLEW_INCLUDE_DIRS}")
-include_directories("${GLFW_INCLUDE_DIRS}")
-
-target_link_libraries(main
-    ${OPENGL_LIBRARIES}
-    ${GLEW_LIBRARIES}
-    ${GLFW_LIBRARIES}
-)
-
 ENDIF()
+

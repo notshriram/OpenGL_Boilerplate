@@ -15,9 +15,18 @@ CMake
 Visual Studio
 
 ### Installing
+* WINDOWS:
+
 After cloning the repository make a new folder with the name `build` and the nrun the command `cmake ..` inside the folder 
 
 ```
+mkdir build
+cd build
+cmake ..
+```
+* LINUX
+```
+sudo apt-get install libx11-dev xrandr-dev
 mkdir build
 cd build
 cmake ..

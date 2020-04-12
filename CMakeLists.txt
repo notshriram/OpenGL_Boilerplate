@@ -47,13 +47,11 @@ pkg_search_module(GLFW REQUIRED glfw3)
 
 include_directories("${PROJECT_SOURCE_DIR}")
 include_directories("${OPENGL_INCLUDE_DIRS}")
-include_directories("${GLU_INCLUDE_DIRS}")
 include_directories("${GLEW_INCLUDE_DIRS}")
 include_directories("${GLFW_INCLUDE_DIRS}")
 
 target_link_libraries(main
     ${OPENGL_LIBRARIES}
-    ${GLU_LIBRARIES}
     ${GLEW_LIBRARIES}
     ${GLFW_LIBRARIES}
 )

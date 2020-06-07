@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # OpenGL Boilerplate
 Project containing all basic dependencies for opengl (GLFW,GLEW,GLM,IMGUI)
 
